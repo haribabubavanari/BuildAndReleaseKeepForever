@@ -1,0 +1,62 @@
+{
+ "manifestVersion": 1,
+ "id": "BuildReleaseSetRetention-Tasks",
+ "version": "1.0.0",
+ "name": "Set Retention forever on a Build Release",
+ "publisher": "HariBabuBavanari",
+ "description": "A set of tasks that update TFS 2015 Builds and Releases Retention.",
+ "categories": [
+    "Build and release"
+  ],
+ "targets": [
+         {
+             "id": "Microsoft.VisualStudio.Services"
+         }
+     ],
+  "tags": [
+    "Release",
+    "Build"
+  ],   
+    "galleryFlags": [
+        "Public"
+    ],
+  "branding": {
+        "color": "#f97923",
+        "theme": "dark"
+  },
+  "icons": {
+      "default": "images/logo.png"
+  },  
+  "content": {
+    "details": {
+      "path": "readme.md"
+    },
+    "license": {
+      "path": "license.md"
+    }
+  }, 
+  "screenshots": [
+    {
+      "path": "images/Screenshot1.png" 
+    }
+	,
+    {
+      "path": "images/Screenshot2.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "BuildReleaseRetentionTask"
+    }],
+  "contributions": [
+    {
+      "id": "BuildReleaseRetention-Task",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "BuildReleaseRetentionTask"
+      }
+    }  ]
+}
