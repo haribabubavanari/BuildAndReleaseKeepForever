@@ -108,12 +108,12 @@ function Get-WebClient
 $VerbosePreference ='Continue' # equiv to -verbose
 
 # Get the build and release details
-$collectionUrl = $env:SYSTEM_TEAMFOUNDATIONCOLLECTIONURI
+$collectionUrl = $env:SYSTEM_TEAMFOUNDATIONSERVERURI
 $teamproject = $env:SYSTEM_TEAMPROJECT
 $releaseid = $env:RELEASE_RELEASEID
 $buildid = $env:BUILD_BUILDID
 
-Write-Verbose "collectionUrl = [$env:SYSTEM_TEAMFOUNDATIONCOLLECTIONURI]"
+Write-Verbose "collectionUrl = [$env:SYSTEM_TEAMFOUNDATIONSERVERURI]"
 Write-Verbose "teamproject = [$env:SYSTEM_TEAMPROJECT]"
 Write-Verbose "releaseid = [$env:RELEASE_RELEASEID]"
 Write-Verbose "buildid = [$env:BUILD_BUILDID]"

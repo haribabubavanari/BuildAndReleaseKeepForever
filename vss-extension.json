@@ -1,7 +1,7 @@
 {
  "manifestVersion": 1,
  "id": "BuildReleaseSetRetention-Tasks",
- "version": "1.0.0",
+ "version": "2.0.0",
  "name": "Set Retention forever on a Build Release",
  "publisher": "HariBabuBavanari",
  "description": "A set of tasks that update TFS 2015 Builds and Releases Retention.",

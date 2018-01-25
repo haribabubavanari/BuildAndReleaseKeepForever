@@ -1,13 +1,11 @@
 
-
-tfx extension create --manifest-globs vss-extension.json
-
 ### Why do we need this plugin?
 When a release has successfully deployed to PRODUCTION environment, we wanted to keep that release defintion and all its associated builds forever. This Release task will automate the process.
 
 
 ### Releases
 - 1.0.x - Initial release
+- 2.0.x - Updated code to work with VSTS also
 
 
 ## Included Tasks
@@ -20,4 +18,3 @@ This task sets the 'keep forever' retension flag on a Release and its all associ
 
 -- Below is command to create extension 
 tfx extension create --manifest-globs vss-extension.json
-For More Info on how to create an marketplace extension - https://www.visualstudio.com/en-us/docs/integrate/extensions/get-started/node#package-and-publish-your-extension-to-the-marketplace
