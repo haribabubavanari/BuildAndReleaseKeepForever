@@ -16,5 +16,10 @@ This task sets the 'keep forever' retension flag on a Release and its all associ
 * All the build artifacts associated with the release
 * (Advanced) Use use build agents default credentials as opposed to agent token - usually only every needed for TFS usage 
 
--- Below is command to create extension 
-tfx extension create --manifest-globs vss-extension.json
+### Screenshots
+
+
+![ScreenShot](https://github.com/haribabubavanari/BuildAndReleaseKeepForever/blob/master/images/Screenshot1.png)
+
+
+![ScreenShot](https://github.com/haribabubavanari/BuildAndReleaseKeepForever/blob/master/images/Screenshot2.png)
